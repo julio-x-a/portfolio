@@ -1,16 +1,37 @@
 body {
   background-color: #000;
   color: #fff;
+  font-family: 'Fira Code', sans-serif;
+}
+
+main {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
 }
 
 .navbar li {
   display: inline-block;
+  font-size: 1.5rem;
 }
 
-.nvabar li:hover {
+/* .navbar a {
+  text-decoration: none;
+} */
+
+.navbar li:hover {
   background-color: #000;
+  color: #fff;
 }
-.navbar {
+.navbar,
+.navbar a,
+.navbar i {
   background-color: #fff;
   color: #000;
+  transition: background-color 0.5s;
+}
+
+.main-title {
+  margin: auto;
 }
