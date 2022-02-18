@@ -4,7 +4,7 @@ const d = document;
 
 d.addEventListener('DOMContentLoaded', (e) => {
   const typed = new Typed('#typed-title', {
-    strings: ['Julio Acevedo', 'Portfolio.'],
+    strings: ['Julio Acevedo'],
     typeSpeed: 40
   });
 });
